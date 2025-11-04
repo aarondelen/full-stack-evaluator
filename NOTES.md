@@ -15,6 +15,12 @@ While my core expertise is in front-end and JavaScript ecosystems, this project 
 
 ---
 
+⏱️ **Time Context**
+Started: Around 2:00–3:00 PM (after completing some errands in the morning)  
+Duration: Within the 4–5 hour window stated in the instructions  
+
+I treated this like a timed technical test, focusing on completing a clean end-to-end integration between the React frontend and .NET backend with PostgreSQL, while maintaining clarity and structure in the code.
+
 ## ⚙️ Setup Steps
 
 ### 1. Backend Setup
@@ -109,6 +115,23 @@ Database connected and seeded (no errors)
 Frontend integrated (fetching successfully)
 
 Project functional and verified end-to-end
+
+---
+
+## 🧩 Development Process Summary
+
+Even though I couldn’t commit every micro-step due to focus on debugging and setup issues, here’s the rough sequence I followed:
+
+1. Cloned the given repo and inspected both backend and frontend structures.  
+2. Set up PostgreSQL locally and created the `taskmanagerdb` database.  
+3. Configured `appsettings.json` with a working connection string.  
+4. Installed and configured Entity Framework Core tools.  
+5. Created and applied migrations to initialize the database schema.  
+6. Connected the frontend using Axios (`/api/axios.js`) with the backend’s base URL.  
+7. Debugged API calls and verified successful database queries via console logs.  
+8. Finalized `NOTES.md` and validated that the project runs end-to-end.  
+
+Each step focused on making sure the app could fetch data from the backend — even if no tasks existed yet — proving full integration.`
 
 🧠 Summary
 This project demonstrates adaptability, cross-stack problem-solving, and a results-first mindset under time constraints. Even outside my usual front-end and JavaScript ecosystem, I was able to configure, debug, and complete the setup efficiently — ensuring a working full-stack app with clean communication between layers.
